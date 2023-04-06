@@ -1,0 +1,57 @@
+[
+    {
+        "_id": 1,
+        "name":"Web Design Service",
+        "image": "https://i.ibb.co/LxbNZJ0/webdesign-service.webp",
+        "body": "We offer the best web design services accompanied by a fully responsive website design.",
+        "category": ""
+    },{
+        "_id": 2,
+        "name":"Virtual Assistant",
+        "image": "https://i.ibb.co/MhY3zbW/Virtual-Assistant.webp",
+        "body": "We provide the best and fastest virtual assistant services through our self-starter virtual assistants.",
+        "category": ""
+    },{
+        "_id": 3,
+        "name":"UI/UX Design Service",
+        "image": "https://i.ibb.co/T2W4Xgz/ui-ux-design.webp",
+        "body": "Our team establishes a clean design process to help them build your product and deliver a perfect result.",
+        "category": ""
+    },{
+        "_id": 4,
+        "name":"Server Administration",
+        "image": "https://i.ibb.co/t20jCcv/server-administor.webp",
+        "body": "Our server administration services can help you save costs and keep your data center up and running.",
+        "category": ""
+    },{
+        "_id": 51,
+        "name":"Mobile Application Development",
+        "image": "https://i.ibb.co/vLXwd84/mobile-application-develop.webp",
+        "body": "We take note of our customer’s requirements to help them develop iOS and Android apps that are custom built.",
+        "category": ""
+    },{
+        "_id": 6,
+        "name":"Game Development",
+        "image": "https://i.ibb.co/Hxb9SG9/game.webp",
+        "body": "Software Solutions provide you with cutting-edge interactive gaming experiences through our advanced 3D creation platform.",
+        "category": ""
+    },{
+        "_id": 7,
+        "name":"Web Application Development",
+        "image": "https://i.ibb.co/sKtvrf7/card-pic-2.png",
+        "body": "We can help you build robust web applications using the latest web technologies. Our web applications are always custom-made.",
+        "category": ""
+    },{
+        "_id": 8,
+        "name":"AR & VR Development",
+        "image": " https://i.ibb.co/SVyP1JF/ar-vr.webp",
+        "body": "At Itech Soft Solutions, we offer you custom solutions for many AR and VR app development.",
+        "category": ""
+    },{
+        "_id": 9,
+        "name":"Blockchain Development",
+        "image": "https://i.ibb.co/sg3bNYJ/card-pic-1.png",
+        "body": "Our passionate developers can assist you in taking a step towards blockchain technology, which is more secure.",
+        "category": ""
+    }
+]
