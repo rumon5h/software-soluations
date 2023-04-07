@@ -20,7 +20,7 @@ const Banner = () => {
                         duration-150
                         focus:shadow-outline
                         bg-gray-700">Learn More</button>
-                            <AiOutlineFacebook AiOutlineFacebook className=' cursor-pointer text-gray-700 w-12 h-12 rounded-lg shadow-2xl'></AiOutlineFacebook>
+                            <AiOutlineFacebook className=' cursor-pointer text-gray-700 w-12 h-12 rounded-lg shadow-2xl'></AiOutlineFacebook>
                             <AiOutlineWhatsApp className='cursor-pointer text-gray-700 w-12 h-12 rounded-lg shadow-2xl'></AiOutlineWhatsApp>
                         </div>
                     </div>

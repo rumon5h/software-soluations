@@ -13,7 +13,9 @@ const Contact = () => {
         };
         console.log(data);
     };
-    return <div className='bg-white my-5 py-5'>
+    return <div 
+    style={{ backgroundImage: `url('/images/provide-background.webp')` }}
+    className='bg-white my-5 py-5 image-full'>
         <div className="w-[350px] lg:w-[450px] mx-auto">
             <div className="p-6 shadow-xl  sm:rounded-md ">
                 <form onSubmit={handleEvent}>
