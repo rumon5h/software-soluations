@@ -20,9 +20,11 @@ const Booking = ({name}) => {
     }
     console.log(name);
     return (
-        <div className='w-full  mx-auto  my-10  '>
+        <div 
+        style={{ backgroundImage: `url('/images/provide-background.webp')` }}
+        className='w-full  mx-auto image-full  my-10  '>
             
-            <form 
+            <form data-aos="zoom-in-up"
             onSubmit={handleEvent}
             className="max-w-lg mx-auto rounded-md  shadow-xl p-10">
                 <h2 className='text-center text-4xl my-3'>Book a Service!</h2>

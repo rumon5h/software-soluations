@@ -1,12 +1,17 @@
 import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init({duration: 2000});
 
 const About = () => {
     return (
         <div>
+            
             <div className="hero shadow-lg min-h-screen gap-3 bg-base-100">
                 <div className="hero-content justify-evenly flex-col lg:flex-row-reverse">
 
-                    <div className='mr-10 '>
+                    <div data-aos="zoom-in-up" className='mr-10 '>
                         <h1 className="text-5xl font-bold">
 
                         </h1>
@@ -36,7 +41,7 @@ const About = () => {
 
                         </div>
                     </div>
-                    <img src="images/about-image.webp" className=" max-w-[50%] rounded-lg" alt='about-background' />
+                    <img data-aos="zoom-in-up" src="images/about-image.webp" className=" max-w-[50%] rounded-lg" alt='about-background' />
                 </div>
             </div>
         </div>

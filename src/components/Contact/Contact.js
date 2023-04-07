@@ -1,10 +1,11 @@
 import React from 'react';
+import { toast } from 'react-hot-toast';
 
 
 const Contact = () => {
     const handleEvent = (event) => {
         event.preventDefault();
-        
+
 
         const data = {
             name: event.target.name.value,
@@ -12,12 +13,17 @@ const Contact = () => {
             message: event.target.message.value
         };
         console.log(data);
+        toast.success(<span>
+            Message sent successfully! <br /> <br />
+            Thank you <b>{data.name}</b></span>)
     };
-    return <div 
-    style={{ backgroundImage: `url('/images/provide-background.webp')` }}
-    className='bg-white my-5 py-5 image-full'>
-        <div className="w-[350px] lg:w-[450px] mx-auto">
+    return <div
+        style={{ backgroundImage: `url('/images/provide-background.webp')` }}
+        className='bg-white my-5 py-5 image-full'>
+        <div data-aos="zoom-in-up" className="w-[350px] lg:w-[450px] mx-auto">
+            
             <div className="p-6 shadow-xl  sm:rounded-md ">
+            <h2 className='text-3xl text-center py-3'>Contact with Us</h2>
                 <form onSubmit={handleEvent}>
                     <label className="block mb-6">
                         <span className="text-gray-900">Your name</span>

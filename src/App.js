@@ -5,8 +5,10 @@ import Booking from './components/Booking/Booking';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
+import Login from './components/Login/Login';
 import Navbar from './components/Navbar/Navbar';
 import Services from './components/Services/Services';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Route path='/services' element={<Services/>}></Route>
         <Route path='/booking' element={<Booking/>}></Route>
         <Route path='/contact' element={<Contact/>}></Route>
+        <Route path='/login' element={<Login/>}></Route>
         <Route path='/about' element={<About/>}></Route>
       </Routes>
       <Footer/>

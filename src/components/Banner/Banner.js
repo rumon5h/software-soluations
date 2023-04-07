@@ -7,8 +7,8 @@ const Banner = () => {
         <div>
             <div className="hero min-h-screen gap-3 bg-base-100">
                 <div className="hero-content justify-evenly flex-col lg:flex-row-reverse">
-                    <img src="images/hero-background.jpg" className=" max-w-7xl rounded-lg shadow-2xl" alt='hero-background' />
-                    <div className='mr-10 '>
+                    <img data-aos="zoom-in-up" src="images/hero-background.jpg" className=" max-w-7xl rounded-lg shadow-2xl" alt='hero-background' />
+                    <div data-aos="zoom-in-up" className='mr-10 '>
                         <h1 className="text-5xl font-bold">Real Time App</h1>
                         <h1 className="text-5xl py-6">Development Solutions</h1>
                         <div className='flex gap-3 mt-6'>

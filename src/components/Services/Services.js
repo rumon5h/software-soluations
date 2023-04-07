@@ -23,7 +23,7 @@ const Services = () => {
 
             <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3'>
                 {
-                    services && services.map(service => <div
+                    services && services.map(service => <div data-aos="zoom-in-up"
 
                         className='shadow-xl m-5 rounded-md '
                         key={service._id}>
