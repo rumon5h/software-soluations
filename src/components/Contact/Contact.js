@@ -13,12 +13,12 @@ const Contact = () => {
         };
         console.log(data);
     };
-    return <div className='bg-gray-900 border border-gray-600 py-5'>
+    return <div className='bg-white my-5 py-5'>
         <div className="w-[350px] lg:w-[450px] mx-auto">
-            <div className="p-6  sm:rounded-md ">
+            <div className="p-6 shadow-xl  sm:rounded-md ">
                 <form onSubmit={handleEvent}>
                     <label className="block mb-6">
-                        <span className="text-gray-300">Your name</span>
+                        <span className="text-gray-900">Your name</span>
                         <input
                             name="name"
                             type="text"
@@ -28,7 +28,7 @@ const Contact = () => {
                         />
                     </label>
                     <label className="block mb-6">
-                        <span className="text-gray-300">Email address</span>
+                        <span className="text-gray-900">Email address</span>
                         <input
                             name="email"
                             type="email"
@@ -38,7 +38,7 @@ const Contact = () => {
                         />
                     </label>
                     <label className="block mb-6">
-                        <span className="text-gray-300">Message</span>
+                        <span className="text-gray-900">Message</span>
                         <textarea
                             name="message"
                             className="px-5 border py-3 block w-full mt-1 border-gray-600 rounded-md shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 bg-transparent placeholder-gray-600 text-gray-300"
