@@ -34,7 +34,7 @@ const Services = () => {
                             <h2 className="card-title">{service.name}</h2>
                             <p className='text-gray-800 mt-3'>{service.body}</p>
                             <div className="card-actions">
-                                <Link to="/booking" className='hover:bg-gray-700 hover:text-white border border-gray-500 py-2 mt-3 rounded-[20px] px-10'>Book now</Link>
+                                <Link to={`/booking`} className='hover:bg-gray-700 hover:text-white border border-gray-500 py-2 mt-3 rounded-[20px] px-10'>Book now</Link>
                             </div>
                         </div>
                     </div>)
