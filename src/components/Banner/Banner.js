@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiOutlineFacebook, AiOutlineWhatsApp } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -20,8 +21,8 @@ const Banner = () => {
                         duration-150
                         focus:shadow-outline
                         bg-gray-700">Learn More</button>
-                            <AiOutlineFacebook className=' cursor-pointer text-gray-700 w-12 h-12 rounded-lg shadow-2xl'></AiOutlineFacebook>
-                            <AiOutlineWhatsApp className='cursor-pointer text-gray-700 w-12 h-12 rounded-lg shadow-2xl'></AiOutlineWhatsApp>
+                           <Link to="https://www.facebook.com/rumon5h" target='_blank'> <AiOutlineFacebook className=' cursor-pointer text-gray-700 w-12 h-12 rounded-lg shadow-2xl'></AiOutlineFacebook></Link>
+                            <Link to="#"><AiOutlineWhatsApp className='cursor-pointer text-gray-700 w-12 h-12 rounded-lg shadow-2xl'></AiOutlineWhatsApp></Link>
                         </div>
                     </div>
                 </div>
